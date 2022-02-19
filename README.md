@@ -17,4 +17,6 @@ Requires: efr_teleswitch_30s.f32
 - exercise 2: slow-speed PSK: tdf_162KHz.ipynb
 slow-speed PSK from the TDF transmitter in France on 162 KHz.
 The first exercise decoding phase-shift keying signals.
-Requires: schmitt.py, tdf_120s.f32
+Requires: schmitt.py, tdf_120s.f32.bz2
+Due to the 25 MB filesize limit of github, the tdf_120s.f32 has been compressed.
+Do not forget to first uncompress this file.
