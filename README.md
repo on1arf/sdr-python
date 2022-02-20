@@ -9,12 +9,12 @@ If you run docker, this image will provide everything you need:
 https://hub.docker.com/r/jupyter/scipy-notebook
 
 ## available notebooks:
-- exercise 1: getting started: efr_teleswitch.ipynb
- efr_teleswitch, slow-speed FSK demodulation.  
- Decoded slow-speed FSK from DCF39, DCF49 and HGA22 in Gernamy and Hungary at 129.1, 135.6 and 139.9 KHz.  
+- exercise 1: getting started: efr_teleswitch.ipynb<br>
+ efr_teleswitch, slow-speed FSK demodulation.<br>
+ Decoded slow-speed FSK from DCF39, DCF49 and HGA22 in Gernamy and Hungary at 129.1, 135.6 and 139.9 KHz.<br>
  Requires: efr_teleswitch_30s.f32
 
-- exercise 2: slow-speed PSK: tdf_162KHz.ipynb
- slow-speed PSK from the TDF transmitter in France on 162 KHz.  
- The first exercise decoding phase-shift keying signals.  
- Requires: schmitt.py, tdf_120s.f32.bz2  
+- exercise 2: slow-speed PSK: tdf_162KHz.ipynb<br>
+ slow-speed PSK from the TDF transmitter in France on 162 KHz.<br>
+ The first exercise decoding phase-shift keying signals.<br>
+ Requires: schmitt.py, tdf_120s.f32.bz2
