@@ -17,4 +17,16 @@ https://hub.docker.com/r/jupyter/scipy-notebook
 - exercise 2: slow-speed PSK: tdf_162KHz.ipynb<br>
  slow-speed PSK from the TDF transmitter in France on 162 KHz.<br>
  The first exercise decoding phase-shift keying signals.<br>
- Requires: schmitt.py, tdf_120s.f32.bz2
+ Requires: schmitt.py, tdf_120s.f32
+
+- exercise 3: PSK: dcf77psk.ipynb<br>
+ Decode the PSK transmission from the DCF77 time transmitter in germany on 77.5 KHz.<br>
+ The 2nd exercise decoding phase-shift keying signals, now decoding PSK in the phase domain.<br>
+ Requires: schmitt.py, dcf77_30s.f32
+
+- exercise 3bis: PSK: dcf77psk-alternative-end.ipynb<br>
+ Decode the PSK transmission from the DCF77 time transmitter in germany on 77.5 KHz.<br>
+ This is an alternative version of exercise 3 above. This notebook does not actually decode the PSK signal, but uses
+ correlation to determine the polarity of the PSK signal.<br>
+ Requires: schmitt.py, dcf77_30s.f32
+
